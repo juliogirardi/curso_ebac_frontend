@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício Módulo 10</title>
+
+    <!-- Adiciona Fonte Roboto do fonts.google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Carrega o arquivo CSS -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Formulário de Cadastro</h1>
+    </header>
+
+    <section id="formulario">
+      <div class="container">
+        <form>
+          <!-- Input para Nome Completo -->
+          <div class="field">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome" />
+          </div>
+
+          <!-- Input para Email -->
+          <div class="field">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <!-- Input para Telefone -->
+          <div class="field">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" />
+          </div>
+
+          <!-- Input para CPF -->
+          <div class="field">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf" />
+          </div>
+
+          <!-- Input para Endereço Completo -->
+          <div class="field">
+            <label for="address">Endereço Completo:</label>
+            <textarea name="address" id="address"></textarea>
+          </div>
+
+          <!-- CEP -->
+          <div class="field">
+            <label for="cep">CEP:</label>
+            <input type="text" name="cep" id="cep" />
+          </div>
+
+          <!-- Botão para submeter o formulario -->
+          <button type="submit" id="btn-enviar">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <!-- Adiciona biblioteca jQuery ao projeto -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <!-- Adiciona plugin de Mascara ao projeto -->
+    <script src="./js/jquery.mask.min.js"></script>
+
+    <!-- Carrega o arquivo JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
