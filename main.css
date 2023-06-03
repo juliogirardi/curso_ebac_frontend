@@ -1,0 +1,21 @@
+body {
+  background-color: rgba(127, 255, 138, 0.082);
+}
+
+h1 {
+  padding: 40px 0;
+}
+
+form input {
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 18px;
+}
+
+#botao {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
